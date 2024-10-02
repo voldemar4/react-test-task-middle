@@ -1,0 +1,33 @@
+.wrapper {
+    position: relative;
+}
+
+.virtualContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.virtualImage {
+    position: relative;
+    opacity: 0.3;
+    bottom: -5px;
+    flex: 1;
+    border-bottom: 1px solid black;
+}
+
+.virtualImage.active {
+    opacity: 0.6;
+}
+
+.imageContainer {}
+
+.image {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
