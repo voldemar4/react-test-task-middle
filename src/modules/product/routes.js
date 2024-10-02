@@ -1,7 +1,7 @@
 import {store} from "../../app/store";
 import * as api from '../../shared/api'
 import {Product, ProductsList} from "./pages";
-import {fetchProduct, fetchProductSizes} from "./product.slice";
+import {fetchProduct} from "./product.slice";
 
 export const productsListRoute = {
     path: "/",
